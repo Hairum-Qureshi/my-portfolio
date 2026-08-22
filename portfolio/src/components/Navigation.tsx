@@ -6,7 +6,6 @@ export default function Navigation() {
   const sections = [
     "HEADER",
     "ABOUT",
-    "HISTORY",
     "SKILLS",
     "PROJECTS",
     "CONTACT",
