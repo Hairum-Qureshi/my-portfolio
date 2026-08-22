@@ -1,3 +1,7 @@
 export default function About() {
-  return <div></div>;
+  return (
+    <div id = "about" className="flex items-center justify-center h-screen bg-gradient-to-b from-gray-800 to-black text-white min-h-auto">
+        <h2>About</h2>
+    </div>
+  );
 }
