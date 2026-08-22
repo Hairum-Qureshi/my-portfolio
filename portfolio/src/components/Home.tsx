@@ -1,6 +1,5 @@
 import Navigation from "./Navigation";
 import About from "./sections/About";
-import History from "./sections/History";
 import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
@@ -21,7 +20,6 @@ export default function Home() {
       </div>
       <div>
         <About />
-        <History />
         <Skills />
         <Projects />
         <Contact />
