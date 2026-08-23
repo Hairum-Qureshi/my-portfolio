@@ -28,6 +28,7 @@ import { FaGithub } from "react-icons/fa";
 import { SiPostman } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import { FaApple } from "react-icons/fa";
+import { FaDatabase } from "react-icons/fa6";
 import Pill from "../Pill";
 
 const languages: {
@@ -48,7 +49,7 @@ const languages: {
   { language: "Python", icon: <FaPython />, tailwindColor: "text-blue-400" },
   {
     language: "SQL",
-    icon: <BiLogoPostgresql />,
+    icon: <FaDatabase />,
     tailwindColor: "text-blue-400",
   },
   { language: "HTML", icon: <FaHtml5 />, tailwindColor: "text-orange-500" },
