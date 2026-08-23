@@ -1,18 +1,18 @@
 [
   {
-    "date": "March 2026",
-    "title": "Accepted into UD's Graduate CIS Program",
-    "body": "After completing my undergraduate degree, I was accepted into the University of Delaware's Computer and Information Sciences graduate program. I will continue developing my software engineering skills while exploring more advanced areas of computer science."
-  },
-  {
-    "date": "October 2026",
-    "title": "Adopted NestJS for Personal Projects",
-    "body": "After learning NestJS in a full-stack software engineering course, I quickly became a fan of its structured, opinionated approach to backend development. I began using it in my personal projects, marking my transition away from Express.js."
+    "date": "August 2026",
+    "title": "Starting My Graduate Studies at the University of Delaware",
+    "body": "Starting my first semester in the University of Delaware's Computer and Information Sciences graduate program, focusing on advanced topics in software engineering, algorithms, and systems design."
   },
   {
     "date": "May 2026",
     "title": "Graduated from the University of Delaware",
-    "body": "Graduated as a first generation college student with a B.S. in Computer Science, building a strong foundation in software engineering and full-stack development."
+    "body": "Graduated as a first-generation college student with a B.S. in Computer Science, building a strong foundation in software engineering and full-stack development."
+  },
+  {
+    "date": "March 2026",
+    "title": "Accepted into UD's Graduate CIS Program",
+    "body": "Accepted into the University of Delaware's Computer and Information Sciences graduate program. I will continue developing my software engineering skills while exploring more advanced areas of computer science."
   },
   {
     "date": "March 2026",
@@ -23,6 +23,11 @@
     "date": "February 2026",
     "title": "Deployed My First Full-Stack Monorepo Application",
     "body": "Deployed my first full-stack application using a monorepo architecture, gaining experience managing a shared codebase across multiple parts of an application."
+  },
+  {
+    "date": "January 2026",
+    "title": "Adopted NestJS for Personal Projects",
+    "body": "After learning NestJS in a full-stack software engineering course, I quickly became a fan of its structured, opinionated approach to backend development. I began using it in my personal projects, marking my transition away from Express.js."
   },
   {
     "date": "September 2025",
