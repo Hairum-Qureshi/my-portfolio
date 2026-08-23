@@ -81,7 +81,7 @@ const cloudDBs: {
   {
     db: "Supabase",
     icon: <RiSupabaseFill />,
-    tailwindColor: "text-blue-400",
+    tailwindColor: "text-green-400",
   },
   {
     db: "Firebase",
