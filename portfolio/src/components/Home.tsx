@@ -10,37 +10,49 @@ export default function Home() {
 
   useEffect(() => {
     const sectionIds = ["header", "about", "skills", "projects", "contact"];
-    const sections = sectionIds
-      .map((sectionId) => document.getElementById(sectionId))
-      .filter((element): element is HTMLElement => element !== null);
 
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const visibleSection = entries
-          .filter((entry) => entry.isIntersecting)
-          .sort(
-            (left, right) => right.intersectionRatio - left.intersectionRatio,
-          )[0];
+    const updateCurrentSection = () => {
+      const triggerPoint = window.innerHeight * 0.35;
+      let current = "HEADER";
 
-        if (!visibleSection) return;
-    
-        const nextSection = visibleSection.target.id.toUpperCase();
-        setCurrentSection(nextSection);
+      for (const sectionId of sectionIds) {
+        const section = document.getElementById(sectionId);
+        if (!section) continue;
+
+        const rect = section.getBoundingClientRect();
+
+        // This section has reached the trigger point.
+        if (rect.top <= triggerPoint) {
+          current = sectionId.toUpperCase();
+        }
+      }
+
+      setCurrentSection((previousSection) => {
+        if (previousSection === current) {
+          return previousSection;
+        }
+
         window.history.replaceState(
           null,
           "",
-          `${window.location.pathname}${nextSection === "HEADER" ? "" : `#${visibleSection.target.id}`}`,
+          `${window.location.pathname}${
+            current === "HEADER" ? "" : `#${current.toLowerCase()}`
+          }`,
         );
-      },
-      {
-        threshold: [0.4, 0.55, 0.7],
-        rootMargin: "-15% 0px -45% 0px",
-      },
-    );
 
-    sections.forEach((section) => observer.observe(section));
+        return current;
+      });
+    };
 
-    return () => observer.disconnect();
+    updateCurrentSection();
+
+    window.addEventListener("scroll", updateCurrentSection, { passive: true });
+    window.addEventListener("resize", updateCurrentSection);
+
+    return () => {
+      window.removeEventListener("scroll", updateCurrentSection);
+      window.removeEventListener("resize", updateCurrentSection);
+    };
   }, []);
 
   return (
