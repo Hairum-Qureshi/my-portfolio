@@ -5,9 +5,9 @@ export default function About() {
   return (
     <div
       id="about"
-      className="flex h-screen flex-row overflow-hidden from-gray-800 to-black"
+      className="flex h-screen flex-row from-gray-800 to-black"
     >
-      <div className="custom-scrollbar w-1/2 overflow-y-auto p-5 text-slate-300">
+      <div className="w-1/2 overflow-y-auto p-5 text-slate-300">
         <h2 className="text-xl font-semibold uppercase font-mono">About</h2>
         <div>
           <p className="text-base mt-4">
