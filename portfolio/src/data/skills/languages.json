@@ -1,0 +1,26 @@
+[
+  {
+    "language": "JavaScript",
+    "html": "<div className=\"flex items-center space-x-2\"><div className=\"w-3 h-3 bg-yellow-500 rounded-full\"></div><span>JavaScript</span></div>"
+  },
+  {
+    "language": "TypeScript",
+    "html": "<div className=\"flex items-center space-x-2\"><div className=\"w-3 h-3 bg-blue-500 rounded-full\"></div><span>TypeScript</span></div>"
+  },
+  {
+    "language": "Python",
+    "html": "<div className=\"flex items-center space-x-2\"><div className=\"w-3 h-3 bg-green-500 rounded-full\"></div><span>Python</span></div>"
+  },
+  {
+    "language": "SQL",
+    "html": "<div className=\"flex items-center space-x-2\"><div className=\"w-3 h-3 bg-indigo-500 rounded-full\"></div><span>SQL</span></div>"
+  },
+  {
+    "language": "HTML",
+    "html": "<div className=\"flex items-center space-x-2\"><div className=\"w-3 h-3 bg-orange-500 rounded-full\"></div><span>HTML</span></div>"
+  },
+  {
+    "language": "CSS",
+    "html": "<div className=\"flex items-center space-x-2\"><div className=\"w-3 h-3 bg-blue-300 rounded-full\"></div><span>CSS</span></div>"
+  }
+]

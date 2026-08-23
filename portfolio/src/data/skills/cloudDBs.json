@@ -1,0 +1,26 @@
+[
+  {
+    "name": "MongoDB",
+    "html": "<div className=\"flex items-center space-x-2\"><div className=\"w-3 h-3 bg-green-500 rounded-full\" /><span>MongoDB</span></div>"
+  },
+  {
+    "cloudDB": "PostgreSQL",
+    "html": "<div className=\"flex items-center space-x-2\"><div className=\"w-3 h-3 bg-blue-500 rounded-full\" /><span>PostgreSQL</span></div>"
+  },
+  {
+    "cloudDB": "Firebase",
+    "html": "<div className=\"flex items-center space-x-2\"><div className=\"w-3 h-3 bg-yellow-500 rounded-full\" /><span>Firebase</span></div>"
+  },
+  {
+    "cloudDB": "Supabase",
+    "html": "<div className=\"flex items-center space-x-2\"><div className=\"w-3 h-3 bg-blue-500 rounded-full\" /><span>Supabase</span></div>"
+  },
+  {
+    "cloudDB": "Redis",
+    "html": "<div className=\"flex items-center space-x-2\"><div className=\"w-3 h-3 bg-red-500 rounded-full\" /><span>Redis</span></div>"
+  },
+  {
+    "cloudDB": "Rest API",
+    "html": "<div className=\"flex items-center space-x-2\"><div className=\"w-3 h-3 bg-gray-500 rounded-full\" /><span>Rest API</span></div>"
+  }
+]
