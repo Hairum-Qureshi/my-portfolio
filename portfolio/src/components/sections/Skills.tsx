@@ -147,7 +147,7 @@ const deployments: {
   {
     deployment: "Vercel",
     icon: <IoLogoVercel />,
-    tailwindColor: "text-slate-500",
+    tailwindColor: "text-white",
   },
   {
     deployment: "Render",
@@ -179,7 +179,7 @@ const frameworks = [
 
 const libraries = [
   {
-    framework: "React.js",
+    library: "React.js",
     icon: <FaReact />,
     tailwindColor: "text-blue-500",
   },
