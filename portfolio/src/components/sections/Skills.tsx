@@ -1,33 +1,37 @@
 import { GitHubCalendar } from "react-github-calendar";
-import { IoLogoJavascript } from "react-icons/io5";
 import type { JSX } from "react/jsx-runtime";
-import { SiTailwindcss, SiTypescript } from "react-icons/si";
-import { FaPython } from "react-icons/fa";
+import {
+  IoLogoJavascript,
+  IoLogoFirebase,
+  IoLogoVercel,
+} from "react-icons/io5";
+import {
+  SiTailwindcss,
+  SiTypescript,
+  SiMongodb,
+  SiRender,
+  SiExpress,
+  SiNestjs,
+  SiReactquery,
+  SiPostman,
+} from "react-icons/si";
+import {
+  FaPython,
+  FaHtml5,
+  FaCss3Alt,
+  FaReact,
+  FaNodeJs,
+  FaGitAlt,
+  FaGithub,
+  FaApple,
+} from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
 import { BsOpenai } from "react-icons/bs";
-import { RiGeminiFill } from "react-icons/ri";
-import { RiSupabaseFill } from "react-icons/ri";
-import { IoLogoFirebase } from "react-icons/io5";
-import { SiMongodb } from "react-icons/si";
+import { RiGeminiFill, RiSupabaseFill, RiBearSmileFill } from "react-icons/ri";
 import { DiRedis } from "react-icons/di";
-import { LuWebhook } from "react-icons/lu";
-import { LuNetwork } from "react-icons/lu";
+import { LuWebhook, LuNetwork } from "react-icons/lu";
 import { TbBrandSocketIo } from "react-icons/tb";
-import { IoLogoVercel } from "react-icons/io5";
-import { SiRender } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { SiExpress } from "react-icons/si";
-import { FaNodeJs } from "react-icons/fa";
-import { SiNestjs } from "react-icons/si";
-import { SiReactquery } from "react-icons/si";
-import { RiBearSmileFill } from "react-icons/ri";
-import { FaGitAlt } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { SiPostman } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
-import { FaApple } from "react-icons/fa";
 import { FaDatabase } from "react-icons/fa6";
 import Pill from "../Pill";
 
