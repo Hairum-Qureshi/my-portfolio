@@ -7,7 +7,7 @@ export default function About() {
       id="about"
       className="flex h-screen flex-row from-gray-800 to-black"
     >
-      <div className="w-1/2 overflow-y-auto p-5 text-slate-300">
+      <div className="w-1/2 p-5 text-slate-300">
         <h2 className="text-xl font-semibold uppercase font-mono">About</h2>
         <div>
           <p className="text-base mt-4">
