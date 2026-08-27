@@ -11,31 +11,36 @@
       "Prisma",
       "Tailwind CSS"
     ],
-    "github": ""
+    "github": "https://github.com/Hairum-Qureshi/Divvy-Up",
+    "live": "https://f25-cisc474-violet.hqureshi-3d9.workers.dev/"
   },
   {
     "name": "Diary App",
     "description": "A full-stack diary app with user authentication and CRUD functionality for creating, editing, and managing private journal entries.",
     "tools": ["React", "NestJS", "TypeScript", "Tailwind CSS", "MongoDB"],
-    "github": ""
+    "github": "https://github.com/Hairum-Qureshi/diary-app",
+    "live": "https://diary-app-frontend-xi.vercel.app/"
   },
   {
     "name": "Anonymous Notes",
     "description": "A MERN-stack platform where users can create accounts and anonymously share thoughts, feelings, and personal notes.",
     "tools": ["React", "Node.js", "Express.js", "MongoDB", "Tailwind CSS"],
-    "github": ""
+    "github": "https://github.com/Hairum-Qureshi/mern-crud-notes-app",
+    "live": "https://anonymous-notes-five.vercel.app/"
   },
   {
     "name": "Halalsters",
     "description": "A responsive single-page website built for a small homemade food business to showcase its menu, services, and offerings.",
     "tools": ["React", "Tailwind CSS"],
-    "github": ""
+    "github": "https://github.com/Hairum-Qureshi/halalsters-website",
+    "live": "https://halalsters.vercel.app/"
   },
   {
     "name": "SA Accounting & Tax Solutions",
     "description": "A responsive single-page business website I made for my dad and his friend's accounting and tax service, showcasing its services and providing visitors with an easy way to get in touch.",
     "tools": ["React", "Tailwind CSS"],
-    "github": ""
+    "github": "https://github.com/Hairum-Qureshi/sa-and-qureshi-accounting-website",
+    "live": "https://qureshis-tax-services.com/"
   },
   {
     "name": "Developer Showcase",
@@ -48,7 +53,8 @@
       "Tailwind CSS",
       "Turborepo"
     ],
-    "github": ""
+    "github": "https://github.com/Hairum-Qureshi/developer-showcase",
+    "live": "https://developer-showcase-frontend.vercel.app/"
   },
   {
     "name": "Tale Weaver",
@@ -61,12 +67,14 @@
       "Tailwind CSS",
       "Socket.IO"
     ],
-    "github": ""
+    "github": "https://github.com/Hairum-Qureshi/story-roleplay-app",
+    "live": "https://taleweaver-roleplays.com/"
   },
   {
     "name": "Case By Case",
     "description": "A courtroom-themed educational game that teaches introductory CS students how to identify effective test cases, uncover bugs, and understand why good software testing matters.",
     "tools": ["Phaser.js", "React", "CSS", "HTML"],
-    "github": ""
+    "github": "https://github.com/Hairum-Qureshi/final-project-pink",
+    "live": "https://ud-s26-cisc374-final.github.io/final-project-pink/"
   }
 ]
