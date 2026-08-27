@@ -4,6 +4,7 @@ import About from "./sections/About";
 import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 import Contact from "./sections/Contact";
+import Footer from "./Footer";
 
 export default function Home() {
   const [currentSection, setCurrentSection] = useState<string>("HEADER");
@@ -12,40 +13,40 @@ export default function Home() {
     const sectionIds = ["header", "about", "skills", "projects", "contact"];
 
     const updateCurrentSection = () => {
-      const triggerPoint = window.innerHeight * 0.35;
-      let current = "HEADER";
+      const viewportMidpoint = window.innerHeight / 2;
+      let closestSection = "HEADER";
+      let closestDistance = Number.POSITIVE_INFINITY;
 
-      for (const sectionId of sectionIds) {
+      sectionIds.forEach((sectionId) => {
         const section = document.getElementById(sectionId);
-        if (!section) continue;
+        if (!section) return;
 
         const rect = section.getBoundingClientRect();
+        const sectionCenter = rect.top + rect.height / 2;
+        const distance = Math.abs(sectionCenter - viewportMidpoint);
 
-        // This section has reached the trigger point.
-        if (rect.top <= triggerPoint) {
-          current = sectionId.toUpperCase();
+        if (distance < closestDistance) {
+          closestDistance = distance;
+          closestSection = sectionId.toUpperCase();
         }
-      }
+      });
 
       setCurrentSection((previousSection) => {
-        if (previousSection === current) {
+        if (previousSection === closestSection) {
           return previousSection;
         }
 
         window.history.replaceState(
           null,
           "",
-          `${window.location.pathname}${
-            current === "HEADER" ? "" : `#${current.toLowerCase()}`
-          }`,
+          `${window.location.pathname}${closestSection === "HEADER" ? "" : `#${closestSection.toLowerCase()}`}`,
         );
 
-        return current;
+        return closestSection;
       });
     };
 
     updateCurrentSection();
-
     window.addEventListener("scroll", updateCurrentSection, { passive: true });
     window.addEventListener("resize", updateCurrentSection);
 
@@ -78,8 +79,13 @@ export default function Home() {
         <div className="w-3/4 m-auto">
           <Skills />
         </div>
-        <Projects />
-        <Contact />
+        <div className="w-3/4 m-auto">
+          <Projects />
+        </div>
+        <div className="w-3/4 m-auto">
+          <Contact />
+        </div>
+        <Footer />
       </div>
     </div>
   );
