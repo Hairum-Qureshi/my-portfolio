@@ -8,6 +8,7 @@ export default function ProjectCard({
     description: string;
     tools: string[];
     github: string;
+    live: string;
   };
 }) {
   return (
@@ -44,14 +45,15 @@ export default function ProjectCard({
           >
             <FaGithub className="text-lg" />
           </a>
-
-          <button
-            type="button"
+          <a
+            href={project.live}
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label={`Open ${project.name}`}
             className="rounded-md p-2 text-slate-500 hover:cursor-pointer transition-all hover:bg-slate-800 hover:text-sky-400"
           >
             <FaExternalLinkAlt className="text-sm" />
-          </button>
+          </a>
         </div>
       </div>
     </div>
