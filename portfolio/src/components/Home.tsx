@@ -69,7 +69,18 @@ export default function Home() {
         <div>
           <h3 className="text-white text-3xl">Hello, I'm</h3>
           <h1 className="text-white text-9xl font-bold">Hairum Qureshi</h1>
+
           <div className="w-full border border-sky-600 shadow-[0_0_10px_#34d399,0_0_20px_#10b981] my-3 bg-linear-to-r transition duration-1000 group-hover:duration-200" />
+
+          {/* <div>
+            <p className="text-sm text-slate-300 m-auto uppercase tracking-widest">
+              I am a software engineering-focused Computer Science graduate and
+              M.S. student who enjoys turning ideas into functional,
+              user-focused applications. I have led software development teams
+              on coursework projects while independently building full-stack
+              applications through personal projects.
+            </p>
+          </div> */}
         </div>
       </div>
       <div>
