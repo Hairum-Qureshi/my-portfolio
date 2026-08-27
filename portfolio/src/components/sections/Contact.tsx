@@ -38,7 +38,7 @@ export default function Contact() {
               </div>
 
               <a
-                href="mailto:hairum.qqureshi@gmail.com"
+                href="https://mail.google.com/mail/u/0/?fs=1&to=hairum.qqureshi@gmail.com&tf=cm"
                 className="font-mono text-sm text-slate-200 transition-colors hover:text-sky-400"
               >
                 hairum.qqureshi@gmail.com
