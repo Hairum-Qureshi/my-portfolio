@@ -72,7 +72,7 @@
   },
   {
     "name": "Case By Case",
-    "description": "A courtroom-themed educational game that teaches introductory CS students how to identify effective test cases, uncover bugs, and understand why good software testing matters.",
+    "description": "A courtroom-themed educational game made in my Educational Game Development class that teaches introductory CS students how to identify effective test cases, uncover bugs, and understand why good software testing matters.",
     "tools": ["Phaser.js", "React", "CSS", "HTML"],
     "github": "https://github.com/Hairum-Qureshi/final-project-pink",
     "live": "https://ud-s26-cisc374-final.github.io/final-project-pink/"
