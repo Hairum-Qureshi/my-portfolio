@@ -15,7 +15,7 @@ export default function ProjectCard({
     <div className="group w-full border-y border-slate-800 px-4 py-5 transition-colors hover:bg-slate-900/40">
       <div className="flex items-center gap-6">
         <div className="flex min-w-0 flex-1 flex-col">
-          <h3 className="font-mono text-lg font-semibold tracking-tight text-slate-200 transition-colors group-hover:text-white">
+          <h3 className="font-mono text-lg font-semibold tracking-tight text-green-600 transition-colors group-hover:text-green-500">
             {project.name}
           </h3>
 
