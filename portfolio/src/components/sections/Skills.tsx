@@ -24,6 +24,9 @@ import {
   FaGitAlt,
   FaGithub,
   FaApple,
+  FaCookie,
+  FaGoogle,
+  FaDiscord,
 } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { BsOpenai } from "react-icons/bs";
@@ -243,6 +246,33 @@ const dataAndState: {
   },
 ];
 
+const authSecurity: {
+  authSecurity: string;
+  icon: JSX.Element;
+  tailwindColor: string;
+}[] = [
+  {
+    authSecurity: "JWT",
+    icon: <FaCookie />,
+    tailwindColor: "text-yellow-500",
+  },
+  {
+    authSecurity: "OAuth2.0",
+    icon: <FaGoogle />,
+    tailwindColor: "text-blue-500",
+  },
+  {
+    authSecurity: "OAuth2.0",
+    icon: <FaDiscord />,
+    tailwindColor: "text-indigo-500",
+  },
+  {
+    authSecurity: "OAuth2.0",
+    icon: <FaGithub />,
+    tailwindColor: "text-purple-500",
+  },
+];
+
 export default function Skills() {
   return (
     <div
@@ -440,6 +470,23 @@ export default function Skills() {
                   tailwindColor={tool.tailwindColor}
                   icon={tool.icon}
                   skillData={tool.tool}
+                />
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h3 className="mb-3 text-xs font-semibold uppercase tracking-widest text-slate-500">
+              Authentication & Security
+            </h3>
+            <div className="flex flex-wrap gap-2">
+              {authSecurity.map((auth, index) => (
+                <Pill
+                  key={index}
+                  index={index}
+                  tailwindColor={auth.tailwindColor}
+                  icon={auth.icon}
+                  skillData={auth.authSecurity}
                 />
               ))}
             </div>
