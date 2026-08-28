@@ -1,12 +1,53 @@
 import { IoMdMail } from "react-icons/io";
-import { FaExternalLinkAlt, FaGithub, FaLinkedin, FaPhoneAlt } from "react-icons/fa";
+import emailjs from "@emailjs/browser";
+
+import {
+  FaExternalLinkAlt,
+  FaGithub,
+  FaLinkedin,
+  FaPhoneAlt,
+} from "react-icons/fa";
+import { useState } from "react";
 
 export default function Contact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  function sendEmail(e: any) {
+    e.preventDefault(); // This is important, the email won't send without it
+
+    if (!name.trim() || !email.trim() || !message.trim()) {
+      alert("Please fill in all fields.");
+      return;
+    }
+
+    emailjs
+      .send(
+        "service_pw5kxv4",
+        "template_325bp9t",
+        {
+          name: name,
+          email: email,
+          subject: "Contact Form Submission",
+          message: message,
+        },
+        {
+          publicKey: "V9XY_O8IHF65P5Iig",
+        },
+      )
+      .then(
+        () => {
+          alert("Email sent!");
+        },
+        (error) => {
+          console.log(error);
+        },
+      );
+  }
+
   return (
-    <div
-      id="contact"
-      className="flex min-h-screen flex-col p-5 text-slate-300"
-    >
+    <div id="contact" className="flex min-h-screen flex-col p-5 text-slate-300">
       <h1 className="my-5 font-mono text-5xl font-semibold uppercase text-sky-500">
         Let's connect!
       </h1>
@@ -135,6 +176,8 @@ export default function Contact() {
                 placeholder="Your name"
                 required
                 className="w-full rounded-lg border border-slate-800 bg-slate-900 px-4 py-3 font-mono text-sm text-white outline-none transition placeholder:text-slate-600 focus:border-sky-500 focus:ring-1 focus:ring-sky-500"
+                value={name}
+                onChange={(e) => setName(e.target.value)}
               />
             </div>
 
@@ -153,6 +196,8 @@ export default function Contact() {
                 placeholder="you@example.com"
                 required
                 className="w-full rounded-lg border border-slate-800 bg-slate-900 px-4 py-3 font-mono text-sm text-white outline-none transition placeholder:text-slate-600 focus:border-sky-500 focus:ring-1 focus:ring-sky-500"
+                value={email}
+                onChange={(e) => setEmail(e.target.value)}
               />
             </div>
 
@@ -171,12 +216,15 @@ export default function Contact() {
                 placeholder="Tell me what's on your mind..."
                 required
                 className="w-full resize-none rounded-lg border border-slate-800 bg-slate-900 px-4 py-3 font-mono text-sm text-white outline-none transition placeholder:text-slate-600 focus:border-sky-500 focus:ring-1 focus:ring-sky-500"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
               />
             </div>
 
             <button
               type="submit"
               className="group mt-2 flex items-center justify-center gap-2 rounded-lg bg-sky-500 px-6 py-3 font-mono text-sm font-semibold uppercase tracking-wider text-slate-950 transition hover:bg-sky-400 active:scale-[0.98]"
+              onClick={(e) => sendEmail(e)}
             >
               <IoMdMail className="text-lg" />
               Send Message
