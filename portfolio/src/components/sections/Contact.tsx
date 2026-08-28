@@ -13,9 +13,7 @@ export default function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  function sendEmail(e: React.FormEvent<HTMLFormElement>) {
-    e.preventDefault();
-
+  function sendEmail() {
     if (!name.trim() || !email.trim() || !message.trim()) {
       alert("Please fill in all fields.");
       return;
@@ -38,6 +36,9 @@ export default function Contact() {
       .then(
         () => {
           alert("Email sent!");
+          setName("");
+          setEmail("");
+          setMessage("");
         },
         (error) => {
           console.log(error);
@@ -159,7 +160,13 @@ export default function Contact() {
             </div>
           </div>
 
-          <form onSubmit={sendEmail} className="flex flex-col gap-5">
+          <form
+            onSubmit={(e) => {
+              e.preventDefault();
+              sendEmail();
+            }}
+            className="flex flex-col gap-5"
+          >
             <div className="flex flex-col gap-2">
               <label
                 htmlFor="name"
