@@ -1,6 +1,5 @@
 import { IoMdMail } from "react-icons/io";
 import emailjs from "@emailjs/browser";
-
 import {
   FaExternalLinkAlt,
   FaGithub,
@@ -14,8 +13,8 @@ export default function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  function sendEmail(e: any) {
-    e.preventDefault(); // This is important, the email won't send without it
+  function sendEmail(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
 
     if (!name.trim() || !email.trim() || !message.trim()) {
       alert("Please fill in all fields.");
@@ -160,7 +159,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <form className="flex flex-col gap-5">
+          <form onSubmit={sendEmail} className="flex flex-col gap-5">
             <div className="flex flex-col gap-2">
               <label
                 htmlFor="name"
@@ -224,7 +223,6 @@ export default function Contact() {
             <button
               type="submit"
               className="group mt-2 flex items-center justify-center gap-2 rounded-lg bg-sky-500 px-6 py-3 font-mono text-sm font-semibold uppercase tracking-wider text-slate-950 transition hover:bg-sky-400 active:scale-[0.98]"
-              onClick={(e) => sendEmail(e)}
             >
               <IoMdMail className="text-lg" />
               Send Message
