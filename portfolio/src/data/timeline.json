@@ -1,117 +1,122 @@
 [
   {
     "date": "September 2026",
-    "title": "Got Accepted For the CS+SG Software Engineering Internship",
-    "body": "Taking the chance, I applied for the CS+Social Good software engineering internship opportunity and was thankfully accepted into the opportunity!"
+    "title": "Started Learning ORMs with Drizzle",
+    "body": "While learning PostgreSQL, I initially focused on writing raw SQL and intentionally avoided ORMs. I later discovered Drizzle and found that its SQL-like approach provided the convenience of an ORM without abstracting away the database concepts I wanted to understand."
+  },
+  {
+    "date": "September 2026",
+    "title": "Joined the CS+Social Good Software Engineering Internship",
+    "body": "Applied for and joined the CS+Social Good software engineering internship, giving me an opportunity to contribute to a real-world project while gaining experience working as part of a software engineering team."
   },
   {
     "date": "August 2026",
-    "title": "Starting My Graduate Studies at the University of Delaware",
-    "body": "Starting my first semester in the University of Delaware's Computer and Information Sciences graduate program, focusing on advanced topics in software engineering, algorithms, and systems design."
+    "title": "Started Graduate Studies at the University of Delaware",
+    "body": "Began my first semester in the University of Delaware's Computer and Information Sciences graduate program, continuing to develop my software engineering foundation while exploring advanced topics in computer science, algorithms, and systems."
   },
   {
     "date": "May 2026",
     "title": "Graduated from the University of Delaware",
-    "body": "Graduated as a first-generation college student with a B.S. in Computer Science, building a strong foundation in software engineering and full-stack development."
+    "body": "Graduated as a first-generation college student with a B.S. in Computer Science. My undergraduate experience gave me a strong foundation in computer science while allowing me to grow through full-stack development, personal projects, and hands-on experience."
   },
   {
     "date": "March 2026",
     "title": "Accepted into UD's Graduate CIS Program",
-    "body": "Accepted into the University of Delaware's Computer and Information Sciences graduate program. I will continue developing my software engineering skills while exploring more advanced areas of computer science."
+    "body": "Was accepted into the University of Delaware's Computer and Information Sciences graduate program, giving me the opportunity to continue developing my software engineering skills and explore more advanced areas of computer science."
   },
   {
     "date": "March 2026",
-    "title": "Attended HenHacks For the Second Time",
-    "body": "Participated in the University of Delaware's HenHacks hackathon for the second time, building a full-stack application with a team and further strengthening my skills in rapid development, collaboration, and problem-solving under pressure."
+    "title": "Attended HenHacks for the Second Time",
+    "body": "Returned to the University of Delaware's HenHacks hackathon for a second time, working with a team to build a full-stack application under a tight deadline. The experience strengthened my skills in rapid development, collaboration, Git, and problem-solving."
   },
   {
     "date": "February 2026",
-    "title": "Deployed My First Full-Stack Monorepo Application",
-    "body": "Deployed my first full-stack application using a monorepo architecture, gaining experience managing a shared codebase across multiple parts of an application."
+    "title": "Deployed My First Full-Stack Monorepo",
+    "body": "Deployed my first full-stack application using a monorepo architecture, gaining experience organizing and deploying multiple parts of an application within a shared codebase."
   },
   {
     "date": "January 2026",
     "title": "Adopted NestJS for Personal Projects",
-    "body": "After learning NestJS in a full-stack software engineering course, I quickly became a fan of its structured, opinionated approach to backend development. I began using it in my personal projects, marking my transition away from Express.js."
+    "body": "After learning NestJS in a full-stack software engineering course, I quickly became drawn to its structured and opinionated approach to backend development. I began adopting it in my personal projects, marking my transition away from Express.js."
   },
   {
     "date": "September 2025",
     "title": "Started Learning NestJS",
-    "body": "Built a full-stack group expense-splitting application using NestJS, Prisma, and Auth0 for Google authentication. Learned how to structure a backend using NestJS's opinionated architecture and object-oriented programming principles."
+    "body": "Built a full-stack group expense-splitting application using NestJS, Prisma, and Auth0 for Google authentication. This introduced me to NestJS's structured architecture and strengthened my understanding of building maintainable backend applications."
   },
   {
     "date": "September 2025",
     "title": "Began My Senior Capstone and Internship Search",
-    "body": "Started my senior capstone project while applying for internships focused on full-stack web development, with the goal of gaining practical industry experience."
+    "body": "Started my senior capstone project while searching for internships focused on full-stack software development. I wanted to complement my academic experience with practical experience building software in a professional environment."
   },
   {
     "date": "May 2025",
     "title": "Shifted Toward Independent Development",
-    "body": "Transitioned toward more independent development, using personal projects and career preparation to strengthen my ability to learn independently, solve problems without formal coursework, and build consistently on my own."
+    "body": "Began placing greater emphasis on independent development through personal projects and career preparation. This period helped me become more comfortable learning new technologies on my own, solving problems without step-by-step instruction, and consistently building outside the classroom."
   },
   {
     "date": "August 2024",
     "title": "Deployed My First MERN Application",
-    "body": "Built and deployed an anonymous note-posting website using the MERN stack and Vercel, marking my first experience taking a full-stack application from development to production."
+    "body": "Built and deployed an anonymous note-posting application using the MERN stack and Vercel. This marked my first experience taking a full-stack application from development all the way to production."
   },
   {
     "date": "May 2024",
-    "title": "Switched to Tailwind CSS",
-    "body": "Moved from vanilla CSS to Tailwind CSS, learning how modern styling tools can accelerate development, improve consistency, and make interfaces easier to maintain."
+    "title": "Adopted Tailwind CSS",
+    "body": "Moved from vanilla CSS to Tailwind CSS, learning how utility-first styling could speed up development while improving consistency and maintainability across my applications."
   },
   {
     "date": "March 2024",
     "title": "Attended My First Hackathon: HenHacks",
-    "body": "Participated in the University of Delaware's HenHacks hackathon. Although my team did not win, the experience taught me how to brainstorm and build under pressure while strengthening my understanding of GitHub, branching, version control, and collaborative development."
+    "body": "Participated in the University of Delaware's HenHacks hackathon for the first time. Working under a tight deadline taught me how to brainstorm, collaborate, use GitHub and branching effectively, and contribute to a shared codebase."
   },
   {
     "date": "January 2024",
     "title": "Adopted TypeScript",
-    "body": "Transitioned my projects from JavaScript to TypeScript, gaining a stronger appreciation for type safety, maintainability, and scalability in modern web applications."
+    "body": "Transitioned from JavaScript to TypeScript in my projects, developing a stronger appreciation for type safety, maintainability, and scalability in modern web applications."
   },
   {
     "date": "August 2023",
     "title": "Started Working in UD's CS Department",
-    "body": "Became a teaching assistant for the University of Delaware's computer science department and joined the Lerner College of Business and Economics Tech Deck as a technical support assistant. These roles strengthened my communication, troubleshooting, and problem-solving skills."
+    "body": "Became a teaching assistant for the University of Delaware's Computer Science department and joined the Lerner College of Business and Economics Tech Deck as a technical support assistant. These roles strengthened my communication, troubleshooting, and problem-solving skills alongside my technical development."
   },
   {
     "date": "December 2022",
     "title": "Started Learning React",
-    "body": "Began exploring component-based development with React. Concepts like state, props, and hooks were initially challenging, but once they clicked, I gained a much deeper understanding of how modern frontend applications are structured and scaled."
+    "body": "Began exploring component-based development with React. Concepts such as state, props, and hooks were initially challenging, but learning how they worked together gave me a much deeper understanding of how modern frontend applications are structured."
   },
   {
     "date": "August 2022",
     "title": "Started Studying Computer Science at UD",
-    "body": "Started my Computer Science degree at the University of Delaware, gaining my first formal exposure to computer science theory, algorithms, and low-level programming. The coursework challenged me while giving me a stronger technical foundation."
+    "body": "Started my Computer Science degree at the University of Delaware, gaining formal exposure to computer science theory, algorithms, data structures, and low-level programming. The coursework challenged me to think beyond simply building applications and gave me a stronger technical foundation."
   },
   {
     "date": "January 2022",
     "title": "Deepened My MongoDB Knowledge",
-    "body": "Dived deeper into MongoDB, learning data modeling, schema design with Mongoose, CRUD operations, and how to integrate a database into a MERN stack application."
+    "body": "Dove deeper into MongoDB, learning about data modeling, schema design with Mongoose, CRUD operations, and integrating databases into full-stack applications."
   },
   {
     "date": "January 2022",
     "title": "Explored Full-Stack Development",
-    "body": "Started combining MongoDB, Express, React, and Node.js to build small applications. This marked the beginning of my journey into full-stack web development."
+    "body": "Started combining MongoDB, Express, React, and Node.js to build small applications. This marked the beginning of my transition from learning individual technologies to thinking about how the pieces of a full-stack application work together."
   },
   {
     "date": "January 2022",
     "title": "Took My First Steps into Backend Development",
-    "body": "Dove into Node.js and Express and began building APIs, realizing how backend services connect frontend applications to real-world data. This expanded my development experience beyond frontend-focused projects."
+    "body": "Dove into Node.js and Express and began building APIs, learning how backend services connect frontend applications to databases and other sources of real-world data. This expanded my development experience beyond frontend-focused projects."
   },
   {
     "date": "March 2020",
     "title": "Accelerated My Learning During the Pandemic",
-    "body": "Used the pandemic as an opportunity to strengthen my JavaScript skills and rebuild my club website from scratch, learning the value of iteration, experimentation, and continuous improvement."
+    "body": "Used the pandemic as an opportunity to deepen my JavaScript skills and rebuild my club website from scratch. This period taught me the value of experimentation, iteration, and learning independently."
   },
   {
     "date": "September 2019",
     "title": "Built My First Major Project",
-    "body": "Built a website for my high school club using HTML, CSS, JavaScript, and Firebase. This was my first experience connecting a frontend application to a backend database."
+    "body": "Built a website for my high school club using HTML, CSS, JavaScript, and Firebase. This was my first experience connecting a frontend application to a backend database and gave me my first taste of building something beyond a static website."
   },
   {
     "date": "June 2019",
     "title": "Started Learning Web Development",
-    "body": "Began experimenting with HTML, CSS, and JavaScript through YouTube tutorials and simple static websites, taking my first steps into web development."
+    "body": "Began experimenting with HTML, CSS, and JavaScript through YouTube tutorials and simple static websites. This was the beginning of my journey into software development."
   }
 ]
