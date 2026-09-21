@@ -1,8 +1,8 @@
 [
   {
-    "date": "September 2026",
-    "title": "Started Learning ORMs with Drizzle",
-    "body": "While learning PostgreSQL, I initially focused on writing raw SQL and intentionally avoided ORMs. I later discovered Drizzle and found that its SQL-like approach provided the convenience of an ORM without abstracting away the database concepts I wanted to understand."
+  "date": "September 2026",
+  "title": "Started Learning ORMs with Drizzle",
+  "body": "While learning PostgreSQL, I initially focused on writing raw SQL and intentionally avoided ORMs. After discovering Drizzle, I began using it as a way to work with PostgreSQL while continuing to learn the underlying database concepts, including table design, relationships, foreign keys, joins, and how to structure data efficiently."
   },
   {
     "date": "September 2026",
