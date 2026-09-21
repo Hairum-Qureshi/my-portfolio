@@ -25,8 +25,7 @@ export default function About() {
             <br />
             <br />
             Over the years, I've worked with technologies across the modern web
-            stack, including TypeScript, React, Node.js, NestJS, MongoDB,
-            PostgreSQL, and more. I especially enjoy working on the backend,
+            stack, including TypeScript, React, Node.js, NestJS, MongoDB, and more. I especially enjoy working on the backend,
             where I can think about APIs, data, architecture, and how everything
             fits together.
             <br />
