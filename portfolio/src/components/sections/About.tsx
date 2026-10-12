@@ -10,7 +10,7 @@ export default function About() {
       <div className="w-1/2 p-5 text-slate-300">
         <h2 className="text-xl font-semibold uppercase font-mono">About</h2>
         <div>
-          <p className="text-base mt-4">
+          <p className="text-base mt-4 max-h-96 overflow-y-auto pr-4">
             Hi, I'm Hairum, an aspiring software developer and computer science graduate
             who enjoys building full-stack applications and learning how the pieces behind
             them fit together.
