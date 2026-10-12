@@ -2,7 +2,6 @@ import { GitHubCalendar } from "react-github-calendar";
 import type { JSX } from "react/jsx-runtime";
 import {
   IoLogoJavascript,
-  IoLogoFirebase,
   IoLogoVercel,
 } from "react-icons/io5";
 import {
@@ -90,11 +89,6 @@ const cloudDBs: {
     db: "Supabase",
     icon: <RiSupabaseFill />,
     tailwindColor: "text-green-400",
-  },
-  {
-    db: "Firebase",
-    icon: <IoLogoFirebase />,
-    tailwindColor: "text-yellow-500",
   },
   {
     db: "MongoDB",
