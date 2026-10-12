@@ -1,5 +1,10 @@
 [
   {
+  "date": "October 2026",
+  "title": "Started Learning Java and Spring Boot",
+  "body": "Revisited Java after several years and began exploring Spring Boot to expand my backend development toolkit beyond Node.js and NestJS. Drawn to its enterprise-oriented architecture and robust ecosystem, I saw this as an opportunity to challenge myself, step outside my comfort zone, and gain experience with a different approach to building scalable, maintainable backend applications."
+  },
+  {
   "date": "September 2026",
   "title": "Started Learning ORMs with Drizzle",
   "body": "While learning PostgreSQL, I initially focused on writing raw SQL and intentionally avoided ORMs. After discovering Drizzle, I began using it as a way to work with PostgreSQL while continuing to learn the underlying database concepts, including table design, relationships, foreign keys, joins, and how to structure data efficiently."
