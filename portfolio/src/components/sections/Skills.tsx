@@ -14,6 +14,8 @@ import {
   SiNestjs,
   SiReactquery,
   SiPostman,
+  SiNeon,
+  SiDrizzle
 } from "react-icons/si";
 import {
   FaPython,
@@ -31,7 +33,6 @@ import {
 import { BiLogoPostgresql } from "react-icons/bi";
 import { BsOpenai } from "react-icons/bs";
 import { RiGeminiFill, RiSupabaseFill, RiBearSmileFill } from "react-icons/ri";
-import { DiRedis } from "react-icons/di";
 import { LuWebhook, LuNetwork } from "react-icons/lu";
 import { TbBrandSocketIo } from "react-icons/tb";
 import { VscVscode } from "react-icons/vsc";
@@ -101,9 +102,9 @@ const cloudDBs: {
     tailwindColor: "text-green-500",
   },
   {
-    db: "Redis",
-    icon: <DiRedis />,
-    tailwindColor: "text-red-500",
+    db: "Neon DB",
+    icon: <SiNeon />,
+    tailwindColor: "text-lime-500",
   },
   {
     db: "PostgreSQL",
@@ -121,6 +122,18 @@ const apis: {
     api: "REST",
     icon: <LuWebhook />,
     tailwindColor: "text-blue-500",
+  },
+];
+
+const orms: {
+  orm: string;
+  icon: JSX.Element;
+  tailwindColor: string;
+}[] = [
+  {
+    orm: "Drizzle",
+    icon: <SiDrizzle />,
+    tailwindColor: "text-lime-400",
   },
 ];
 
@@ -326,7 +339,7 @@ export default function Skills() {
 
           <div>
             <h3 className="mb-3 text-xs font-semibold uppercase tracking-widest text-slate-500">
-              Cloud Databases & Caching
+              Cloud Databases
             </h3>
 
             <div className="flex flex-wrap gap-2">
@@ -337,6 +350,24 @@ export default function Skills() {
                   tailwindColor={db.tailwindColor}
                   icon={db.icon}
                   skillData={db.db}
+                />
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h3 className="mb-3 text-xs font-semibold uppercase tracking-widest text-slate-500">
+              ORMs
+            </h3>
+          
+            <div className="flex flex-wrap gap-2">
+              {orms.map((orm, index) => (
+                <Pill
+                  key={index}
+                  index={index}
+                  tailwindColor={orm.tailwindColor}
+                  icon={orm.icon}
+                  skillData={orm.orm}
                 />
               ))}
             </div>
